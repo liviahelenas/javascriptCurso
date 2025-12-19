@@ -8,3 +8,4 @@
 
 - Coloque mais foco em entender a estrutura da lógica e esse pensamento, e traduza isso em funções, regras de negócio, e operações.
   
+- Na programação, as coisas sempre são facilitadas com o tempo, mas a base é muito importante, tenha em mente de que depois as operaçõezinhas serão substituidas por funções e lógicas mais fortonas, com objetos mais interessantes. Valorize a base, sempre, e aperfeiçoe com o tempo

@@ -8,7 +8,7 @@ console.log('**********Bem-Vindo**********');
 console.log('feito por:')
 
 const nome = 'Lívia';
-for (i = 0; i < nome.length; i++) {
+for (let i = 0; i < nome.length; i++) {
 
 
    console.log(nome[i]);
@@ -110,7 +110,7 @@ por isso a inicialização em 0, e finalização "menor que", incrementando a ca
 */
 console.log('**********muito importante!**********');
 const atencao = 'Arrays';
-for (i = 0; i < atencao.length; i++) {
+for (let i = 0; i < atencao.length; i++) {
 
 
    console.log(atencao[i]);
@@ -160,15 +160,13 @@ console.log(fatiamentoDeArrays);
 console.log('**********Busca no Array!**********');
 
 
-verificacao = Number(prompt.question('Vamos encontrar! Busque um numero: '));
+let verificacao = Number(prompt.question('Vamos encontrar! Busque um numero: '));
 
-for (i= 0 ; i< fatiamentoDeArrays.length ;i++){
-   if(fatiamentoDeArrays.includes(verificacao)){
-      console.log('Que legal! existe ', verificacao , 'no Array!');
-      console.log('seu indice é : ' , fatiamentoDeArrays.indexOf(verificacao) );
-   } else {
-      console.log('Que pena! ' , verificacao , 'nao esta presente no Array!');
-   } break;
+if (fatiamentoDeArrays.includes(verificacao)) {
+   console.log('Que legal! existe', verificacao, 'no Array!');
+   console.log('seu indice é:', fatiamentoDeArrays.indexOf(verificacao));
+} else {
+   console.log('Que pena!', verificacao, 'não está presente no Array!');
 }
 
 console.log('**********Percorrendo valores no Array com for **********');
